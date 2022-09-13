@@ -14,7 +14,7 @@ A Colorado Board of Elections employee, Tom and Seth, has given me the following
 - Data Source: [Election results](/Resources/election_results.csv)
 - Software: Python 3.6.7, Visual Studio Code 1.38.1
 
-## Election-Audit Results
+## [Election-Audit Results](/analysis/election_results.txt)
 The analysis of the election show that:
 - There were 369,711 votes cast in the election.
 
@@ -33,5 +33,5 @@ The analysis of the election show that:
 - The winner of the election was:
     - Diana DeGette, who received 73.8% of the votes and 272,892 number of votes!
  
- ## Election-Audit Summary
- This script is very strong as it can run analysis on csv files with 369,711 rows of data in a very short amount of time! Furthermore, this script can be modefied to filter data according to the modifier's choice. For example, suppose there was another column for provinces. This script can be modefied to filter the data such that it can show number of votes per provinces. Also, I should mention that the script is limited to only one analysis, as it can run multiple analysis as demonstrated with the votes per candidates and counties. Thus, using the same/similar algorithm of the script, the modifier can run multiple analysis of their csv file and write out their analysis findings on a txt file if thet choose to do so!  
+## Election-Audit Summary: [Script](/PyPoll_Challenge.py)
+This script is very powerful as it can run analysis on csv files with 369,711 rows of data in a very short amount of time! Furthermore, this script can be modefied to filter data according to the modifier's choice. For example, suppose there was another column for provinces and the script can be modefied to filter the province data such that it can show number of votes per provinces. Hence, this script is not limited to only the columns of data presented in the csv file and can work perfectly fine with additional columns of data (if added). Also, I should mention that the script is limited to running only one analysis, as it can run multiple analysis as demonstrated with the votes per candidates and counties. Thus, using the same/similar algorithm of the script, the modifier can run multiple analysis of their csv file and write out their analysis findings on a txt file if thet choose to do so!  
